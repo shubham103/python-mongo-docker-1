@@ -2,7 +2,7 @@ This project uses mongo and python, docker images
 
 Step 1: Start the mongo server
   
-  >> docker container run --name mongo-app --rm -p 27017:27017 -d mongo
+    >> docker container run --name mongo-app --rm -p 27017:27017 -d mongo
   
 Step 2: Insert some data in database
   
@@ -59,10 +59,10 @@ Step 4: Write the app.py
 
 Step 5: Build the image for flask application 
   
-  >> docker bild . -t flask
+    >> docker bild . -t flask
   
 Step 6: Run the container of the image we build just above
 
-  >> docker container run --name flask-app --rm -p 5000:5000 --link mongo-app flask
+    >> docker container run --name flask-app --rm -p 5000:5000 --link mongo-app flask
   
 Step 7: You are good to go.......
