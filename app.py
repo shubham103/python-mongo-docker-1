@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-client = MongoClient('172.17.0.2',27017)
+client = MongoClient('172.17.0.2',27017)  # ip address from command >>  docker inspect mongo-app
 
 db = client.shubham
 
