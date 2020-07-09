@@ -6,13 +6,13 @@ Step 1: Start the mongo server
   
 Step 2: Insert some data in database
   
-  >> docker exec -it mongo-app bash
-    >> mongo
-      >> use shubham
-      >> db.createCollection("skt")
-      >> db.skt.insert({"name":"shbhmtwr19"})
+    >> docker exec -it mongo-app bash
+      >> mongo
+        >> use shubham
+        >> db.createCollection("skt")
+        >> db.skt.insert({"name":"shbhmtwr19"})
+        >> exit
       >> exit
-    >> exit
 
 Step 3: Write the Dockerfile for flask application
     
