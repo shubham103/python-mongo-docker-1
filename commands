@@ -1,0 +1,99 @@
+docker image rm flask
+docker build . -t flask
+docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+
+
+1  docker pull mongo
+    2  docker container run --name mongo-app --rm -d -p 27017:27017 mongo
+    3  docker exec -it mongo-app bash
+    4  docekr ps
+    5  docker ps
+    6  touch Dockerfile app.py
+    7  vim app.py
+    8  vim Dockerfile 
+    9  vim Dockerfile 
+   10  docker build .
+   11  docker build . -t flask-app
+   12  vim Dockerfile 
+   13  docker build . -t flask-app
+   14  docker image ls
+   15  docker container run --name test1 --rm -p 5000:5000 flask-app
+   16  docker image rm flask-app
+   17  vim Dockerfile 
+   18  docker build . -t flas
+
+19  docker container run --name test1 --rm -p 5000:5000 flas
+   20  docker image rm flas
+   21  vim app.py 
+   22  docker build . -t flask
+   23  docker container run --name test1 --rm -p 5000:5000 flask
+   24  docker image rm  flask
+   25  vim app.py 
+   26  docker build . -t flask
+   27  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+   28  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+   29  docker container stop mongo-app
+   30  docker container rm mongo-app
+   31  docker container run --name mongo-app --rm -p 27017:27017 -d mongo
+   32  docker exec -it mongo-app bash
+   33  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+   34  vim app.py 
+   35  docker image rm  flask
+   36  docker build . -t flask
+   37  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+   38  docker image rm  flask
+   39  vim app.py 
+   40  docker build . -t flask
+   41  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+   42  docker inspect mongo-app
+   43  docker image rm  flask
+   44  vim app.py 
+   45  docker build . -t flask
+   46  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
+   47  vim Dockerfile 
+   48  vim app.py
+   49  docker image ls
+   50  docker image rm flask
+   51  docker build . -t flask
+   52  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   53  docker image rm flask
+   54  vim app.py 
+   55  docker build . -t flask
+   56  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   57  clear
+   58  docker image rm flask
+   59  vim app.py 
+   60  docker build . -t flask
+   61  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   62  docker image rm flask
+   63  clear
+   64  vim app.py
+   65  docker build . -t flask
+   66  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   67  cat > server.sh
+   68  vim app.py 
+   69  bash server.sh
+   70  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   71  duso docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   72  sudo docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   73  docker build . -t flask
+   74  docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask 
+   75  vim server.sh 
+   76  vim app.py 
+   77  bash server.sh 
+   78  vim app.py 
+   79  bash server.sh 
+   80  vim app.py 
+   81  bash server.sh 
+   82  docker exec -it mongo-app bash
+   83  vim app.py 
+   84  vim app.py 
+   85  bash server.sh 
+   86  bash server.sh 
+   87  bash server.sh 
+   88  bash server.sh 
+   89  vim app.py 
+   90  bash server.sh 
+   91  vim app.py 
+   92  bash server.sh 
+   93  ls
