@@ -7,4 +7,5 @@ WORKDIR /usr/src/app
 
 COPY app.py .
 
-EXPOSE 5000a
+EXPOSE 5000
+CMD ["python","app.py"]
