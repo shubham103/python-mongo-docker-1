@@ -86,14 +86,4 @@ docker container run --name test1 --rm -p 5000:5000 --link mongo-app flask
    80  vim app.py 
    81  bash server.sh 
    82  docker exec -it mongo-app bash
-   83  vim app.py 
-   84  vim app.py 
-   85  bash server.sh 
-   86  bash server.sh 
-   87  bash server.sh 
-   88  bash server.sh 
-   89  vim app.py 
-   90  bash server.sh 
-   91  vim app.py 
-   92  bash server.sh 
-   93  ls
+   83  
